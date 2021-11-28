@@ -47,6 +47,6 @@ public class EncriptadorTestCase {
 	public void testDesencriptarConNumeros() {
 		encriptador = new EncriptadorNaive(pasarANumeros);
 		String encriptado = encriptador.encriptar(texto);
-		assertEquals("c a s a   d e   p a p e l", encriptador.desencriptar(encriptado));
+		assertEquals("casa de papel", encriptador.desencriptar(encriptado));
 	}
 }
